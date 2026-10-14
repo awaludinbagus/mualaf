@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Teman Iman",
+    "slug": "teman-iman",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "temaniman",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "id.temaniman.app"
+    },
+    "android": {
+      "package": "id.temaniman.app",
+      "permissions": ["SCHEDULE_EXACT_ALARM"]
+    },
+    "web": {
+      "bundler": "metro",
+      "name": "Teman Iman",
+      "shortName": "Teman Iman",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-font", "expo-notifications"],
+    "icon": "./assets/icon.png"
+  }
+}
